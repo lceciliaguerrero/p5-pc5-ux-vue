@@ -1,18 +1,25 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <main class="container-fluid py-md-0">
+      <Featured />
+      <LogCard />
+    </main>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
+import Featured from "@/components/Featured";
+import LogCard from "@/components/BlogCard";
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
+  name: "Home",
+  components: { Featured, LogCard },
+  data() {
+
+  },
+  methods: {
+
   }
-}
+};
 </script>

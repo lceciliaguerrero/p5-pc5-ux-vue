@@ -1,0 +1,173 @@
+/*Fonts*/
+/* Importaciones */
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Colores */
+$black: #000;
+$naranja-claro: #fab050;
+$naranja-medio: #df8a4a;
+$naranja: #f78117;
+$naranja-oscuro: #be6636;
+$gray-fondo: #e8e8e8;
+$gray-text-p: #5d5d5d;
+
+$naranja-text: $naranja;
+$naranja-text-oscuro: $naranja-oscuro;
+$fondo-gris: $gray-fondo;
+$grey-text: $gray-text-p;
+
+
+$theme-colors: (
+        "background-gray": $fondo-gris,
+        "naranja-texto": $naranja-text,
+        "naranja-texto-oscuro": $naranja-text-oscuro,
+        "grey-texto": $grey-text
+);
+
+$colors: (
+        "gray-background": $fondo-gris,
+        "naranja": $naranja-text,
+        "naranja-oscuro": $naranja-text-oscuro,
+        "gris-texto": $grey-text
+);
+
+/* Spacing */
+$spacer: 1rem;
+$spacers: (
+        0: 0,
+        1: $spacer * .25,
+        2: $spacer * .5,
+        3: $spacer,
+        4: $spacer * 1.5,
+        5: $spacer * 1.75,
+        6: $spacer * 3,
+        7: $spacer * 4,
+        8: $spacer * 6,
+        9: $spacer * 9.33
+);
+
+/* text */
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+$h7-font-size: $font-size-base * 0.95;
+$h8-font-size: $font-size-base * 0.87;
+$h9-font-size: $font-size-base * 0.75;
+$font-sizes: (
+        1: $h1-font-size,
+        2: $h2-font-size,
+        3: $h3-font-size,
+        4: $h4-font-size,
+        5: $h5-font-size,
+        6: $h6-font-size,
+        7: $h7-font-size,
+        8: $h8-font-size,
+        9: $h9-font-size
+);
+
+/* Importaciones Bootstrap */
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+/* Anchura de la línea */
+$line-height-base: 1.5;
+$line-height-ssm: 0.35;
+$line-height-sm: 1.25;
+$line-height-lg: 2;
+$line-height-sml: 1.57;
+
+/* Bordes */
+$border-radius: .25rem;
+$border-radius-sm: .2rem;
+$border-radius-lg: .3rem;
+$border-radius-pill: 50rem;
+
+
+/* API */
+$utilities: map-merge($utilities,
+        (
+                "line-height": (
+                        property: line-height,
+                        class: lh,
+                        values: (
+                                1: 1,
+                                sm: $line-height-sm,
+                                base: $line-height-base,
+                                lg: $line-height-lg,
+                                sml: $line-height-sml,
+                                ssm: $line-height-ssm
+                        )
+                ),
+                "rounded": (
+                        property: border-radius,
+                        class: rounded,
+                        values: (
+                                null: $border-radius,
+                                0: 0,
+                                1: $border-radius-sm,
+                                2: $border-radius,
+                                3: $border-radius-lg,
+                                4: $border-radius * 2,
+                                circle: 50%,
+                                pill: $border-radius-pill
+                        )
+                )
+
+        )
+);
+
+
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* lo genérico para los body's */
+.myBody {
+  margin: 0;
+  font-family: "Rokkitt", serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.texto-justificado {
+  text-align: justify;
+}
+
+$box-shadow-texto: 0 1px 0 $white;
+
+.texto-sombreado {
+  text-shadow: $box-shadow-texto;
+}
+
+.button-degradado {
+  background: linear-gradient(180deg, rgba($naranja-claro, .99), rgba($naranja-medio, .99), rgba($naranja-oscuro, .99)) !important;
+}
+@import '../../node_modules/bootstrap/scss/bootstrap';
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.router-link-exact-active a,
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link:hover,
+.navbar-collapse .nav-item a.router-link-exact-active .nav-link,
+.navbar-collapse .nav-item .nav-link .fa-xl:hover,
+.nav-link.active, .nav-link:hover {
+  color: $naranja !important;
+}
+
+.navbar-collapse .nav-item .nav-link .fa-xl:hover,
+.navbar-collapse .nav-item a .nav-link,
+.navbar-collapse .nav-item .nav-link .fa-xl {
+  color: $gray-text-p !important;
+}
+
+.border-end {
+  border-right: 1px solid $black !important;
+}
+
+/*# sourceMappingURL=custom.scss.map */
