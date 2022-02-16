@@ -1,12 +1,18 @@
 <template>
   <div class="checkout">
-    <h1>This is an checkout page</h1>
+    <main class="container-fluid py-md-0">
+      <h1>checkout</h1>
+      <Form />
+    </main>
   </div>
 
 </template>
 
 <script>
-
+import Form from "@/components/Form";
+export default {
+  components: {Form}
+}
 </script>
 
 <style scoped>

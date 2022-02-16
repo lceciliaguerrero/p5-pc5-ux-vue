@@ -1,7 +1,9 @@
 <template>
   <div class="shop">
-    <h1>This is an shop page</h1>
-    <main>
+    <main class="container-fluid py-md-0">
+      <h1>Carrusel</h1>
+      <Carrusel />
+      <h1>Products</h1>
       <Products />
     </main>
   </div>
@@ -9,7 +11,8 @@
 
 <script>
 import Products from "@/components/Products";
+import Carrusel from "@/components/Carrusel";
 export default {
-  components: { Products },
+  components: { Carrusel, Products },
 }
 </script>

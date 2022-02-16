@@ -1,6 +1,6 @@
 <template>
   <div class="pie">
-    <footer class="container-fluid">
+    <footer class="container-fluid py-md-0">
       <div class="d-flex justify-content-around align-items-center">
         <div class="navbar navbar-expand-md navbar-light">
           <div class="container">
@@ -26,11 +26,11 @@
                   ><a class="nav-link">Shop</a></router-link
                   >
                 </li>
-                <li class="nav-item">
+<!--                <li class="nav-item">
                   <router-link to="/checkout"
                   ><a class="nav-link">Checkout</a></router-link
                   >
-                </li>
+                </li>-->
               </ul>
             </div>
           </div>

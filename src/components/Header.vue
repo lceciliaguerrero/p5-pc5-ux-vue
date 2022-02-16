@@ -27,11 +27,11 @@
                 ><a class="nav-link">Blog</a></router-link
                 >
               </li>
-              <li class="nav-item ms-6">
+<!--              <li class="nav-item ms-6">
                 <router-link to="/checkout"
                 ><a class="nav-link">Checkout</a></router-link
                 >
-              </li>
+              </li>-->
             </ul>
           </div>
         </div>
