@@ -33,7 +33,7 @@ export default createStore({
     },
     eliminarProducto: function (state, prod) {
       let searchProduct = state.carrito.findIndex((produc) => prod.id === produc.id);
-      state.carrito.splice(searchProduct.id, 1);
+      state.carrito.splice(searchProduct, 1);
     }/**/
   },
   getters: {
