@@ -1,6 +1,6 @@
 <template>
-  <div class="checkout">
-    <form class="needs-validation" method="get">
+  <div class="col bg-transparent">
+    <form class="needs-validation" method="get" @submit.prevent>
       <div class="row">
         <div class="col-md-6 mb-3">
           <label for="firstName">Nombre</label>
@@ -25,72 +25,92 @@
       </div>
       <div class="mb-3">
         <label for="email">Correo electrónico <span class="text-muted">(Optional)</span></label>
-        <input id="email" class="form-control" type="email" name="userEmail" v-model="userEmail"
+        <input id="email" class="form-control" type="email" name="userEmail" v-model="correoUsuario"
                placeholder="you@example.com">
       </div>
-      <h4 class="mb-3">Payment</h4>
+      <h4 class="mb-3">Forma de pagar</h4>
       <div class="d-block my-3">
         <div class="custom-control custom-radio">
-          <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-          <label class="custom-control-label" for="credit">Credit card</label>
+          <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" value="Tarjeta de Crédito"
+                 v-model="metodoPago"
+                 required>
+          <label class="custom-control-label" for="credit">Tarjeta de Crédito</label>
         </div>
         <div class="custom-control custom-radio">
-          <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-          <label class="custom-control-label" for="debit">Debit card</label>
+          <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" value="Tarjeta de Debito"
+                 v-model="metodoPago"
+                 required>
+          <label class="custom-control-label" for="debit">Tarjeta de Debito</label>
         </div>
         <div class="custom-control custom-radio">
-          <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+          <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" value="PayPal"
+                 v-model="metodoPago"
+                 required>
           <label class="custom-control-label" for="paypal">PayPal</label>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 mb-3">
-          <label for="cc-text">Name on card</label>
-          <input type="text" class="form-control" id="cc-text" placeholder="" required>
-          <small class="text-muted">Full text as displayed on card</small>
-          <div class="invalid-feedback">
-            Name on card is required
-          </div>
+          <label for="cc-text">Nombre de la Tarjeta</label>
+          <input type="text" class="form-control" id="cc-text" v-model="nombreTarjeta" placeholder="" required>
         </div>
         <div class="col-md-6 mb-3">
-          <label for="cc-number">Credit card number</label>
-          <input type="text" class="form-control" id="cc-number" placeholder="" required>
-          <div class="invalid-feedback">
-            Credit card number is required
-          </div>
+          <label for="cc-number">Numero de la Tarjeta</label>
+          <input type="text" class="form-control" id="cc-number" v-model="numeroTarjeta" placeholder="" required>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3 mb-3">
-          <label for="cc-expiration">Expiration</label>
-          <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-          <div class="invalid-feedback">
-            Expiration date required
-          </div>
+        <div class="col-md-6 mb-3">
+          <label for="cc-expiration">Fecha de Caducidad de la Tarjeta</label>
+          <input type="text" class="form-control" id="cc-expiration" v-model="numeroExpiracionTarjeta" placeholder=""
+                 required>
         </div>
-        <div class="col-md-3 mb-3">
-          <label for="cc-cvv">CVV</label>
-          <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-          <div class="invalid-feedback">
-            Security code required
-          </div>
+        <div class="col-md-6 mb-3">
+          <label for="cc-cvv">Valor de Verificación de la Tarjeta</label>
+          <input type="text" class="form-control" id="cc-cvv" v-model="valorVerificacionTarjeta" placeholder=""
+                 required>
         </div>
       </div>
-      <hr class="mb-4">
-      <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+      <input
+          class="border border-2 p-md-0 border-naranja-texto-oscuro user-select-none btn btn-lg button-degradado text-white fs-3"
+          type="submit" v-on:click="crearComprador" value="Continue to checkout">
     </form>
   </div>
 </template>
 
 <script>
+import router from "@/router";
+
 export default {
   text: "Checkout",
-  data() {return {
-    nombrePila: '',
-    apellidoPila: '',
-    nombreUsuario: '',
-    userEmail: ''
-  }}
+  data() {
+    return {
+      idComprador: 0,
+      nombrePila: '',
+      apellidoPila: '',
+      nombreUsuario: '',
+      correoUsuario: '',
+      metodoPago: '',
+      nombreTarjeta: '',
+      numeroTarjeta: '',
+      numeroExpiracionTarjeta: '',
+      valorVerificacionTarjeta: ''
+    }
+  },
+  methods: {
+    crearComprador() {
+      this.idComprador++;
+      let comprador = {
+        id: this.idComprador, nombrePila: this.nombrePila, apellidoPila: this.apellidoPila,
+        nombreUsuario: this.nombreUsuario, correoUsuario: this.correoUsuario,
+        metodoPago: this.metodoPago, nombreTarjeta: this.nombreTarjeta,
+        numeroTarjeta: this.numeroTarjeta, numeroExpiracionTarjeta: this.numeroExpiracionTarjeta,
+        valorVerificacionTarjeta: this.valorVerificacionTarjeta
+      }
+      this.$store.commit('crearComprador', comprador);
+      router.push({path: '/recibo'});
+    }
+  }
 }
 </script>
 

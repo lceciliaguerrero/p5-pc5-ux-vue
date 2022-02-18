@@ -12550,7 +12550,8 @@ textarea.form-control-lg {
 
 .navbar-collapse .nav-item .nav-link .fa-xl:hover,
 .navbar-collapse .nav-item a .nav-link,
-.navbar-collapse .nav-item .nav-link .fa-xl {
+.navbar-collapse .nav-item .nav-link .fa-xl,
+.nav-link {
   color: #5d5d5d !important;
 }
 

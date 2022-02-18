@@ -162,7 +162,8 @@ $box-shadow-texto: 0 1px 0 $white;
 
 .navbar-collapse .nav-item .nav-link .fa-xl:hover,
 .navbar-collapse .nav-item a .nav-link,
-.navbar-collapse .nav-item .nav-link .fa-xl {
+.navbar-collapse .nav-item .nav-link .fa-xl,
+.nav-link {
   color: $gray-text-p !important;
 }
 

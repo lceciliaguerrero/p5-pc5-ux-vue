@@ -4,7 +4,7 @@ export default createStore({
   state: {
     carrito: [
     ],
-    datosComprador: {}
+    datosComprador: []
   },
   mutations: {
     comprarProducto: (state, prod) => {
@@ -31,13 +31,16 @@ export default createStore({
         state.carrito[searchProduct].unidades -= 1;
       }
     },
-    eliminarProducto: function (state, prod) {
+    eliminarProducto: (state, prod) => {
       let searchProduct = state.carrito.findIndex((produc) => prod.id === produc.id);
       state.carrito.splice(searchProduct, 1);
-    }/**/
+    },
+    crearComprador: (state, comp) => {
+      state.datosComprador.push(comp);
+    }
   },
   getters: {
-    getImprimirTotal: function (state) {
+    getImprimirTotal: (state) => {
       console.log(state);
       let total = 0;
       for (let item of state.carrito) {
