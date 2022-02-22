@@ -5,7 +5,7 @@
         <div class="col-sm-auto px-md-5">
           <div class="card">
             <div class="card-header bg-transparent">
-              <img src="../assets/img/pastries.jpg" class="card-img-top" alt="pastries">
+              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries">
             </div>
             <div class="card-body">
               <p class="card-text texto-justificado fs-8 lh-sm text-grey-texto">This website template has been
@@ -19,7 +19,7 @@
                     <a class="nav-link">
                       <button class="border-0 user-select-none" data-bs-toggle="button" type="button">
                         <img
-                          src="../assets/img/button-more.jpg"
+                          src="@/assets/img/button-more.jpg"
                           class="card-img-top"
                           alt="pastries"
                         />
@@ -42,7 +42,7 @@
         <div class="col-sm-auto px-md-5">
           <div class="card">
             <div class="card-header bg-transparent">
-              <img src="../assets/img/pastries.jpg" class="card-img-top" alt="pastries">
+              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries">
             </div>
             <div class="card-body">
               <p class="card-text texto-justificado fs-8 lh-sm text-grey-texto">This website template has been
@@ -56,7 +56,7 @@
                     <a class="nav-link">
                       <button class="border-0 user-select-none" data-bs-toggle="button" type="button">
                         <img
-                            src="../assets/img/button-more.jpg"
+                            src="@/assets/img/button-more.jpg"
                             class="card-img-top"
                             alt="pastries"
                         />
@@ -79,7 +79,7 @@
         <div class="col-sm-auto px-md-5">
           <div class="card">
             <div class="card-header bg-transparent">
-              <img src="../assets/img/pastries.jpg" class="card-img-top" alt="pastries">
+              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries">
             </div>
             <div class="card-body">
               <p class="card-text texto-justificado fs-8 lh-sm text-grey-texto">This website template has been
@@ -93,7 +93,7 @@
                     <a class="nav-link">
                       <button class="border-0 user-select-none" data-bs-toggle="button" type="button">
                         <img
-                            src="../assets/img/button-more.jpg"
+                            src="@/assets/img/button-more.jpg"
                             class="card-img-top"
                             alt="pastries"
                         />

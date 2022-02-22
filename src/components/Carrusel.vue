@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-content-md-center">
+  <div class="d-flex justify-content-md-center flex-column align-items-center">
     <div class="carousel">
       <h2 class="text-center">Carrusel</h2>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -10,13 +10,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../assets/img/carrusel/carousel1.webp" class="img-fluid" alt="carousel1">
+            <img src="@/assets/img/carrusel/carousel1.webp" class="img-fluid" alt="carousel1">
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/carrusel/carousel2.webp" class="img-fluid" alt="carousel2">
+            <img src="@/assets/img/carrusel/carousel2.webp" class="img-fluid" alt="carousel2">
           </div>
           <div class="carousel-item">
-            <img src="../assets/img/carrusel/carousel3.webp" class="img-fluid" alt="carousel3">
+            <img src="@/assets/img/carrusel/carousel3.webp" class="img-fluid" alt="carousel3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,6 +41,6 @@ export default {
 
 <style scoped>
 .carousel {
-  width: 400px;
+  max-width: 400px;
 }
 </style>

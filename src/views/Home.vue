@@ -11,9 +11,7 @@
         <div class="col-md-12 py-md-5">
           <Carrusel />
         </div>
-
       </div>
-
     </main>
   </div>
 </template>
