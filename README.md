@@ -23,4 +23,8 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-### 
+### Enlace a Netlify
+[Enlace de netlify](https://relaxed-hopper-9083cf.netlify.app/)
+
+### Accessibility Techniques
+
