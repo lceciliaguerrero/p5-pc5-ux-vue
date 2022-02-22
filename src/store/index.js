@@ -41,7 +41,6 @@ export default createStore({
   },
   getters: {
     getImprimirTotal: (state) => {
-      console.log(state);
       let total = 0;
       for (let item of state.carrito) {
         total += item.precio * item.unidades;

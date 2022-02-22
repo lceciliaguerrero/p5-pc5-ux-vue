@@ -17,20 +17,15 @@
                   >
                 </li>
                 <li class="nav-item border-end">
-                  <router-link to="/about"
-                  ><a class="nav-link">About</a></router-link
-                  >
-                </li>
-                <li class="nav-item">
                   <router-link to="/shop"
                   ><a class="nav-link">Shop</a></router-link
                   >
                 </li>
-<!--                <li class="nav-item">
-                  <router-link to="/checkout"
-                  ><a class="nav-link">Checkout</a></router-link
+                <li class="nav-item">
+                  <router-link to="/blog"
+                  ><a class="nav-link">Blog</a></router-link
                   >
-                </li>-->
+                </li>
               </ul>
             </div>
           </div>
