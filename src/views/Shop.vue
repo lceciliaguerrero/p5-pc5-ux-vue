@@ -4,8 +4,10 @@
       <h1>Products</h1>
 
       <div class="row">
-        <Products />
-        <div class="col-sm-5">
+        <div class="col-lg-7 col-md-12">
+          <Products />
+        </div>
+        <div class="col-lg-5 col-md-12">
           <Carrito />
           <div>
             <router-link to="/checkout"><a class="nav-link">Checkout</a></router-link>

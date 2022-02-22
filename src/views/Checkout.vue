@@ -2,8 +2,11 @@
   <div class="checkout">
     <main class="container-fluid py-md-0">
       <div class="row">
-        <Form />
-        <div class="col-sm-5">
+        <div class="col-lg-7 col-md-12">
+          <Form />
+        </div>
+
+        <div class="col-lg-5 col-md-12">
           <Carrito />
         </div>
       </div>

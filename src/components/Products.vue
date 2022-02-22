@@ -35,7 +35,7 @@ export default {
       listProducts: [
         {
           id: 0,
-          imagen: 'https://raw.githubusercontent.com/lceciliaguerrero/p5-pc5-ux-vue/master/src/assets/img/products/product1.webp?token=GHSAT0AAAAAABP2DGRNIHIZWYAXBU2QWTD6YQT3VOA',
+          imagen: require('@/assets/img/products/product1.webp'),
           nombre: 'Arándano rojo',
           precio: 2.00.toFixed(2),
           moneda: 'euro',
@@ -43,7 +43,7 @@ export default {
         },
         {
           id: 1,
-          imagen: 'https://raw.githubusercontent.com/lceciliaguerrero/p5-pc5-ux-vue/master/src/assets/img/products/product2.webp?token=GHSAT0AAAAAABP2DGRN53SIBPZ2F2KKDEKKYQT3WDA',
+          imagen: require('@/assets/img/products/product2.webp'),
           nombre: 'Manzana',
           precio: 0.50.toFixed(2),
           moneda: 'euro',
@@ -51,12 +51,12 @@ export default {
         },
         {
           id: 2,
-          imagen: 'https://raw.githubusercontent.com/lceciliaguerrero/p5-pc5-ux-vue/master/src/assets/img/products/product3.webp?token=GHSAT0AAAAAABP2DGRNJTNVZDCDMR7PT5B2YQT3WVA',
+          imagen: require('@/assets/img/products/product3.webp'),
           nombre: 'Tomate Cherri',
           precio: 0.10.toFixed(2),
           moneda: 'euro',
           unidades: 0
-        },
+        }
       ],
       listProductsComp: [],
       total: 0.00.toFixed(2)
