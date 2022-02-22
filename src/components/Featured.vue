@@ -12,11 +12,12 @@
               nostrud exerci tation ullamcorper</p>
             <p class="card-text">
               <small class="text-muted d-grid gap-2 col-md-6 mx-auto">
-                <button
-                    class="border border-2 p-md-0 border-naranja-texto-oscuro user-select-none btn btn-lg button-degradado text-white fs-3"
-                    data-bs-toggle="button" type="button"
-                    onclick="parent.location='blog.html'">Read more
-                </button>
+                <router-link to="/blog">
+                  <button
+                      class="border border-2 p-md-0 border-naranja-texto-oscuro user-select-none btn btn-lg button-degradado text-white fs-3"
+                      data-bs-toggle="button" type="button">Read more
+                  </button>
+                </router-link>
               </small>
             </p>
           </div>
