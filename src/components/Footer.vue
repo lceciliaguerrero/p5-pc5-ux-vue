@@ -21,7 +21,7 @@
                   ><a class="nav-link">About</a></router-link
                   >
                 </li>
-                <li class="nav-item border-end">
+                <li class="nav-item">
                   <router-link to="/shop"
                   ><a class="nav-link">Shop</a></router-link
                   >
