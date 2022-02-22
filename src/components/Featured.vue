@@ -10,14 +10,19 @@
               this text with your own text. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
               nostrud exerci tation ullamcorper</p>
+
             <p class="card-text">
               <small class="text-muted d-grid gap-2 col-md-6 mx-auto">
                 <router-link to="/blog">
-                  <button
-                      class="border border-2 p-md-0 border-naranja-texto-oscuro user-select-none btn btn-lg button-degradado text-white fs-3"
-                      data-bs-toggle="button" type="button">Read more
-                  </button>
+                  <a class="nav-link">
+                    <button
+                        class="border border-2 p-md-0 border-naranja-texto-oscuro user-select-none btn btn-lg button-degradado text-white fs-3"
+                        data-bs-toggle="button" type="button">
+                      Read more
+                    </button>
+                  </a>
                 </router-link>
+
               </small>
             </p>
           </div>
