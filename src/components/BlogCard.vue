@@ -5,7 +5,7 @@
         <div class="col-sm-auto px-md-5">
           <div class="card">
             <div class="card-header bg-transparent">
-              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries">
+              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries" aria-describedby="pastries">
             </div>
             <div class="card-body">
               <p class="card-text texto-justificado fs-8 lh-sm text-grey-texto">This website template has been
@@ -21,7 +21,7 @@
                         <img
                           src="@/assets/img/button-more.jpg"
                           class="card-img-top"
-                          alt="pastries"
+                          alt="button more" aria-describedby="button more"
                         />
                       </button>
                     </a>
@@ -42,7 +42,7 @@
         <div class="col-sm-auto px-md-5">
           <div class="card">
             <div class="card-header bg-transparent">
-              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries">
+              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries" aria-describedby="pastries">
             </div>
             <div class="card-body">
               <p class="card-text texto-justificado fs-8 lh-sm text-grey-texto">This website template has been
@@ -58,7 +58,7 @@
                         <img
                             src="@/assets/img/button-more.jpg"
                             class="card-img-top"
-                            alt="pastries"
+                            alt="button more" aria-describedby="button more"
                         />
                       </button>
                     </a>
@@ -79,7 +79,7 @@
         <div class="col-sm-auto px-md-5">
           <div class="card">
             <div class="card-header bg-transparent">
-              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries">
+              <img src="@/assets/img/pastries.jpg" class="card-img-top" alt="pastries" aria-describedby="pastries">
             </div>
             <div class="card-body">
               <p class="card-text texto-justificado fs-8 lh-sm text-grey-texto">This website template has been
@@ -95,7 +95,7 @@
                         <img
                             src="@/assets/img/button-more.jpg"
                             class="card-img-top"
-                            alt="pastries"
+                            alt="button more" aria-describedby="button more"
                         />
                       </button>
                     </a>

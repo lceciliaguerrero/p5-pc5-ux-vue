@@ -14,17 +14,17 @@
             <ul class="navbar-nav ms-auto fs-6">
               <li class="nav-item ms-6">
                 <router-link to="/"
-                ><a class="nav-link">Home</a></router-link
+                ><a class="nav-link" aria-label="Vista home">Home</a></router-link
                 >
               </li>
               <li class="nav-item ms-6">
                 <router-link to="/shop"
-                ><a class="nav-link">Shop</a></router-link
+                ><a class="nav-link" aria-label="Vista shop">Shop</a></router-link
                 >
               </li>
               <li class="nav-item ms-6">
                 <router-link to="/blog"
-                ><a class="nav-link">Blog</a></router-link
+                ><a class="nav-link" aria-label="Vista blog">Blog</a></router-link
                 >
               </li>
 <!--              <li class="nav-item ms-6">

@@ -10,13 +10,13 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="@/assets/img/carrusel/carousel1.webp" class="img-fluid" alt="carousel1">
+            <img src="@/assets/img/carrusel/carousel1.webp" class="img-fluid" alt="carousel1" aria-describedby="carousel1">
           </div>
           <div class="carousel-item">
-            <img src="@/assets/img/carrusel/carousel2.webp" class="img-fluid" alt="carousel2">
+            <img src="@/assets/img/carrusel/carousel2.webp" class="img-fluid" alt="carousel2" aria-describedby="carousel2">
           </div>
           <div class="carousel-item">
-            <img src="@/assets/img/carrusel/carousel3.webp" class="img-fluid" alt="carousel3">
+            <img src="@/assets/img/carrusel/carousel3.webp" class="img-fluid" alt="carousel3" aria-describedby="carousel3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

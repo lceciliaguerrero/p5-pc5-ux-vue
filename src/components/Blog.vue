@@ -8,17 +8,17 @@
             <div class="col-md-3 d-block justify-content-center align-self-center bg-white">
               <div class="container-fluid row-cols-md-auto">
                 <div class="row p-2">
-                  <img src="@/assets/img/pastries.jpg" class="img-fluid rounded-4" alt="pastries">
+                  <img src="@/assets/img/pastries.jpg" class="img-fluid rounded-4" alt="pastries" aria-describedby="pastries">
                 </div>
                 <div class="row p-2">
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry1.jpg" class="img-fluid rounded-4 ocultar" alt="pastry1">
+                    <img src="@/assets/img/pastry1.jpg" class="img-fluid rounded-4 ocultar" alt="pastry1" aria-describedby="pastry1">
                   </div>
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry2.jpg" class="img-fluid rounded-4 ocultar" alt="pastry2">
+                    <img src="@/assets/img/pastry2.jpg" class="img-fluid rounded-4 ocultar" alt="pastry2" aria-describedby="pastry2">
                   </div>
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry3.jpg" class="img-fluid rounded-4 ocultar" alt="pastry3">
+                    <img src="@/assets/img/pastry3.jpg" class="img-fluid rounded-4 ocultar" alt="pastry3" aria-describedby="pastry3">
                   </div>
                 </div>
                 <div class="row p-2">
@@ -52,7 +52,7 @@
                         Templates for you, for free. You can replace all this text with your own text.</p>
                       <p class="card-text">
                         <small class="text-muted">
-                          <img src="@/assets/img/button-more.jpg" class="img-fluid" alt="pastries">
+                          <img src="@/assets/img/button-more.jpg" class="img-fluid" alt="pastries" aria-describedby="pastries">
                         </small>
                       </p>
                     </div>
@@ -67,17 +67,17 @@
             <div class="col-md-3 d-block justify-content-center align-self-center bg-white">
               <div class="container-fluid row-cols-md-auto">
                 <div class="row p-2">
-                  <img src="@/assets/img/pastries.jpg" class="img-fluid rounded-4" alt="pastries">
+                  <img src="@/assets/img/pastries.jpg" class="img-fluid rounded-4" alt="pastries" aria-describedby="pastries">
                 </div>
                 <div class="row p-2">
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry1.jpg" class="img-fluid rounded-4 ocultar" alt="pastry1">
+                    <img src="@/assets/img/pastry1.jpg" class="img-fluid rounded-4 ocultar" alt="pastry1" aria-describedby="pastry1">
                   </div>
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry2.jpg" class="img-fluid rounded-4 ocultar" alt="pastry2">
+                    <img src="@/assets/img/pastry2.jpg" class="img-fluid rounded-4 ocultar" alt="pastry2" aria-describedby="pastry2">
                   </div>
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry3.jpg" class="img-fluid rounded-4 ocultar" alt="pastry3">
+                    <img src="@/assets/img/pastry3.jpg" class="img-fluid rounded-4 ocultar" alt="pastry3" aria-describedby="pastry3">
                   </div>
                 </div>
                 <div class="row p-2">
@@ -111,7 +111,7 @@
                         Templates for you, for free. You can replace all this text with your own text.</p>
                       <p class="card-text">
                         <small class="text-muted">
-                          <img src="@/assets/img/button-more.jpg" class="img-fluid" alt="pastries">
+                          <img src="@/assets/img/button-more.jpg" class="img-fluid" alt="pastries" aria-describedby="pastries">
                         </small>
                       </p>
                     </div>
@@ -126,17 +126,17 @@
             <div class="col-md-3 d-block justify-content-center align-self-center bg-white">
               <div class="container-fluid row-cols-md-auto">
                 <div class="row p-2">
-                  <img src="@/assets/img/pastries.jpg" class="img-fluid rounded-4" alt="pastries">
+                  <img src="@/assets/img/pastries.jpg" class="img-fluid rounded-4" alt="pastries" aria-describedby="pastries">
                 </div>
                 <div class="row p-2">
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry1.jpg" class="img-fluid rounded-4 ocultar" alt="pastry1">
+                    <img src="@/assets/img/pastry1.jpg" class="img-fluid rounded-4 ocultar" alt="pastry1" aria-describedby="pastry1">
                   </div>
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry2.jpg" class="img-fluid rounded-4 ocultar" alt="pastry2">
+                    <img src="@/assets/img/pastry2.jpg" class="img-fluid rounded-4 ocultar" alt="pastry2" aria-describedby="pastry2">
                   </div>
                   <div class="col-md-4">
-                    <img src="@/assets/img/pastry3.jpg" class="img-fluid rounded-4 ocultar" alt="pastry3">
+                    <img src="@/assets/img/pastry3.jpg" class="img-fluid rounded-4 ocultar" alt="pastry3" aria-describedby="pastry3">
                   </div>
                 </div>
                 <div class="row p-2">
@@ -170,7 +170,7 @@
                         Templates for you, for free. You can replace all this text with your own text.</p>
                       <p class="card-text">
                         <small class="text-muted">
-                          <img src="@/assets/img/button-more.jpg" class="img-fluid" alt="pastries">
+                          <img src="@/assets/img/button-more.jpg" class="img-fluid" alt="pastries" aria-describedby="pastries">
                         </small>
                       </p>
                     </div>

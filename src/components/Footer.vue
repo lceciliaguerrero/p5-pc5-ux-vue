@@ -13,17 +13,17 @@
               <ul class="nav fs-9 align-items-center">
                 <li class="nav-item border-end">
                   <router-link to="/"
-                  ><a class="nav-link">Home</a></router-link
+                  ><a class="nav-link" aria-label="Vista home">Home</a></router-link
                   >
                 </li>
                 <li class="nav-item border-end">
                   <router-link to="/shop"
-                  ><a class="nav-link">Shop</a></router-link
+                  ><a class="nav-link" aria-label="Vista shop">Shop</a></router-link
                   >
                 </li>
                 <li class="nav-item">
                   <router-link to="/blog"
-                  ><a class="nav-link">Blog</a></router-link
+                  ><a class="nav-link" aria-label="Vista blog">Blog</a></router-link
                   >
                 </li>
               </ul>

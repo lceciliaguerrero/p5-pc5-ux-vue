@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="col-md-5">
-          <img src="@/assets/img/house.jpg" class="img-fluid rounded-start" alt="House">
+          <img src="@/assets/img/house.jpg" class="img-fluid rounded-start" alt="house" aria-describedby="house">
         </div>
       </div>
     </div>

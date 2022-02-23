@@ -4,7 +4,7 @@
       <div v-for="prod in listProducts" v-bind:key="prod.id" class="px-sm-1 col-sm-4">
         <div class="card">
           <div class="card-header bg-transparent">
-            <img v-bind:src="prod.imagen" class="card-img-top" v-bind:alt="prod.nombre">
+            <img v-bind:src="prod.imagen" class="card-img-top" v-bind:alt="prod.nombre" v-bind:aria-describedby="prod.nombre">
           </div>
           <div class="card-body">
             <p class="card-text texto-justificado fs-8 lh-sm text-naranja-texto fw-bold text-capitalize text-center">
@@ -16,7 +16,7 @@
               <small class="text-muted nav-item">
                 <input
                     class="border border-2 p-md-0 border-naranja-texto-oscuro user-select-none btn btn-lg button-degradado text-white fs-3"
-                    type="button" name="comprarFrita1" value="comprar" v-on:click="comprarProducto(prod)">
+                    type="button" name="comprarFrita1" value="comprar" v-on:click="comprarProducto(prod)" >
                 <!-- v-on:click="comprarFrita1"-->
               </small>
             </p>
