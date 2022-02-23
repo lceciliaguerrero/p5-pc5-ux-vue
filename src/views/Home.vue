@@ -6,7 +6,7 @@
           <Featured />
         </div>
         <div class="col-md-12 py-md-5">
-          <LogCard />
+          <BlogCard />
         </div>
         <div class="col-md-12 py-md-5">
           <Carrusel />
@@ -20,10 +20,10 @@
 // @ is an alias to /src
 
 import Featured from "@/components/Featured";
-import LogCard from "@/components/BlogCard";
+import BlogCard from "@/components/BlogCard";
 import Carrusel from "@/components/Carrusel";
 export default {
   name: "Home",
-  components: { Featured, LogCard, Carrusel }
+  components: { Featured, BlogCard, Carrusel }
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="logCard">
+  <div class="BlogCard">
     <div class="row-cols-auto bg-transparent">
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-sm-auto px-md-5">
@@ -25,7 +25,7 @@
                         />
                       </button>
                     </a>
-                  </router-link>
+                    </router-link>
                 </small>
                 <small class="text-muted nav-item fst-italic">
                   <router-link to="/blog">
@@ -119,11 +119,11 @@
 </template>
 
 <script>
+
 export default {
-  name: "LogCard"
+  name: "BlogCard"
 }
 </script>
 
 <style scoped>
-
 </style>
