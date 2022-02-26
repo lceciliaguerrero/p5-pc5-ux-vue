@@ -28,15 +28,17 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Lighthouse
 ![lighthouse From Page](doc/lighthouseFromPage.PNG)
-[lighthouse From Page pdf](doc/lighthouse.pdf)
+[lighthouse From Page PDF](doc/lighthouse.pdf)
+
+### Uso de paleta de colores
+![Colours Palette](doc/ColoursPalette.PNG)
 
 ### Principios de la experiencia del usuario
-- Uso de paleta de colores
-![Colours Palette](doc/ColoursPalette.PNG)
-- Uso de links claros
+- Uso del contraste suficiente en colores
+- Uso de links destacados
 
 ### Técnicas de Accesibilidad
-- Uso de ``aria-label`` para fines de enlace.
+- Uso de ``aria-label`` para fines de enlace
 - Uso de ``aria-describedby`` para proporcionar descripciones de imágenes
 - Uso de ``aria-required`` para identificar un campo obligatorio
 - Uso de ``aria-labelledby`` para proporcionar un nombre para los controles de la interfaz de usuario
