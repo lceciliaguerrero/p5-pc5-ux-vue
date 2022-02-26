@@ -1,7 +1,7 @@
 <template>
   <div class="d-flex justify-content-md-center flex-column align-items-center">
     <div class="carousel">
-      <h2 class="text-center">Carrusel</h2>
+      <h2 class="text-center text-naranja-texto">Carrusel</h2>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

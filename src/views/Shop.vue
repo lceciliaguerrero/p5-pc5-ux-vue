@@ -1,7 +1,7 @@
 <template>
   <div class="shop">
     <main class="container-fluid py-md-0">
-      <h1>Products</h1>
+      <h2 class="text-grey-texto">Products</h2>
 
       <div class="row">
         <div class="col-lg-7 col-md-12">

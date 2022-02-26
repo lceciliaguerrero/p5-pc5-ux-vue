@@ -1,7 +1,7 @@
 <template>
-  <h3>Carrito</h3>
+  <h3 class="text-grey-texto">Carrito</h3>
   <table class="table text-center table-responsive">
-    <thead>
+    <thead class="text-naranja-texto">
     <tr>
       <th>Nombre</th>
       <th colspan="3">Unidades</th>
@@ -9,7 +9,7 @@
       <th>Acciones</th>
     </tr>
     </thead>
-    <tbody>
+    <tbody class="text-grey-texto">
     <tr v-for="pro in $store.state.carrito" v-bind:key="pro.id">
       <td>{{ pro.nombre }}</td>
       <td class="text-end">
@@ -28,7 +28,7 @@
       </td>
     </tr>
     </tbody>
-    <tfoot>
+    <tfoot class="text-grey-texto">
     <tr>
       <td colspan="2">
         Total
