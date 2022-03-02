@@ -43,3 +43,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - Uso de ``aria-required`` para identificar un campo obligatorio
 - Uso de ``aria-labelledby`` para proporcionar un nombre para los controles de la interfaz de usuario
 - Uso de ``h1-h6`` para identificar encabezados
+
+### Extras
+- Imágenes en los productos.
